@@ -1,0 +1,54 @@
+{
+  "mod_elements": [
+    {
+      "name": "FadedRedTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_red_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tiles.json",
+          "src/main/java/net/mcreator/yafnafmodextras/block/FadedRedTilesBlock.java",
+          "src/main/resources/assets/ya_fnafmod/models/item/faded_red_tiles.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/faded_red_tiles.json",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/faded_red_tiles.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FadedRedTiles"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.ya_fnafmod.faded_red_tiles": "Faded Red Tiles"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ya_fnafmod",
+    "modName": "Yet Another FNAF Mod: Extra Additions",
+    "version": "1.0.0",
+    "author": "MarceloGToonz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.yafnafmodextras"
+  },
+  "mcreatorVersion": 202400452410
+}

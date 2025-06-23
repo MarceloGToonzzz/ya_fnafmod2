@@ -1,0 +1,160 @@
+{
+  "mod_elements": [
+    {
+      "name": "FadedRedTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_red_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tiles.json",
+          "src/main/java/net/mcreator/yafnafmodextras/block/FadedRedTilesBlock.java",
+          "src/main/resources/assets/ya_fnafmod/models/item/faded_red_tiles.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/faded_red_tiles.json",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/faded_red_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "FadedRedTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_red_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yafnafmodextras/block/FadedRedTileStairsBlock.java",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/models/item/faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_stairs_outer.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_stairs_inner.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "FadedRedTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_red_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_slab_full.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_slab_top.json",
+          "src/main/java/net/mcreator/yafnafmodextras/block/FadedRedTileSlabBlock.java",
+          "src/main/resources/assets/ya_fnafmod/models/item/faded_red_tile_slab.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/faded_red_tile_slab.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/faded_red_tile_slab.json",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/faded_red_tile_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedFadedRedTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_faded_red_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tiles.json",
+          "src/main/java/net/mcreator/yafnafmodextras/block/CrackedFadedRedTilesBlock.java",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/cracked_faded_red_tiles.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/cracked_faded_red_tiles.json",
+          "src/main/resources/assets/ya_fnafmod/models/item/cracked_faded_red_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedFadedRedTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_faded_red_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yafnafmodextras/block/CrackedFadedRedTileStairsBlock.java",
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/blockstates/cracked_faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_stairs_inner.json",
+          "src/main/resources/assets/ya_fnafmod/models/item/cracked_faded_red_tile_stairs.json",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/cracked_faded_red_tile_stairs.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedFadedRedTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_faded_red_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_slab_full.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_slab_top.json",
+          "src/main/resources/assets/ya_fnafmod/models/item/cracked_faded_red_tile_slab.json",
+          "src/main/java/net/mcreator/yafnafmodextras/block/CrackedFadedRedTileSlabBlock.java",
+          "src/main/resources/assets/ya_fnafmod/blockstates/cracked_faded_red_tile_slab.json",
+          "src/main/resources/data/ya_fnafmod/loot_tables/blocks/cracked_faded_red_tile_slab.json",
+          "src/main/resources/assets/ya_fnafmod/models/block/cracked_faded_red_tile_slab.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CrackedFadedRedTileSlab",
+      "~CUSTOM:CrackedFadedRedTileStairs",
+      "~CUSTOM:CrackedFadedRedTiles",
+      "~CUSTOM:FadedRedTileSlab",
+      "~CUSTOM:FadedRedTileStairs",
+      "~CUSTOM:FadedRedTiles"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CrackedFadedRedTileSlab",
+      "~CUSTOM:FadedRedTileSlab"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CrackedFadedRedTileStairs",
+      "~CUSTOM:FadedRedTileStairs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.ya_fnafmod.faded_red_tiles": "Faded Red Tiles",
+      "block.ya_fnafmod.faded_red_tile_slab": "Faded Red Tile Slab",
+      "block.ya_fnafmod.cracked_faded_red_tile_stairs": "Faded Red Tile Stairs (Cracked)",
+      "block.ya_fnafmod.faded_red_tile_stairs": "Faded Red Tile Stairs",
+      "block.ya_fnafmod.cracked_faded_red_tiles": "Faded Red Tiles (Cracked)",
+      "block.ya_fnafmod.cracked_faded_red_tile_slab": "Faded Red Tile Slab (Cracked)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ya_fnafmod",
+    "modName": "Yet Another FNAF Mod: Extra Additions",
+    "version": "1.0.0",
+    "author": "MarceloGToonz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.yafnafmodextras"
+  },
+  "mcreatorVersion": 202400452410
+}
